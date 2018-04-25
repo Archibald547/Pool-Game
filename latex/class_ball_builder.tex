@@ -1,0 +1,124 @@
+\hypertarget{class_ball_builder}{}\section{Ball\+Builder Class Reference}
+\label{class_ball_builder}\index{Ball\+Builder@{Ball\+Builder}}
+
+
+Ballbuilder class is the abstract builder class for object ball.  
+
+
+
+
+{\ttfamily \#include $<$ballbuilder.\+h$>$}
+
+Inheritance diagram for Ball\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_ball_builder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_ball_builder_a5dc064067607fa4ef22db5901cca9e62}{build\+Ball}} ()
+\item 
+virtual void \mbox{\hyperlink{class_ball_builder_a0ca1344197192ea0f5aa5b7104e5f876}{build\+Coordinate}} (\mbox{\hyperlink{class_coordinate}{Coordinate}} c)
+\item 
+virtual void \mbox{\hyperlink{class_ball_builder_a0cd696c49074e3923a76ec8aed10ad45}{build\+Color}} (Q\+String color)
+\item 
+virtual void \mbox{\hyperlink{class_ball_builder_a6514a4ef81d56ba21708783cce473e4e}{build\+Mass}} (double mass)
+\item 
+virtual void \mbox{\hyperlink{class_ball_builder_af101d6eac3453fd0fda02b8900b49e8f}{build\+Radius}} (int radius)
+\item 
+virtual void \mbox{\hyperlink{class_ball_builder_a9139eedc191ad41fa221f06902646d4b}{build\+X\+Velocity}} (double xV)
+\item 
+virtual void \mbox{\hyperlink{class_ball_builder_a1687bc4c363f259dd38b0d7d6ac92e57}{build\+Y\+Velocity}} (double yV)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Ballbuilder class is the abstract builder class for object ball. 
+
+\begin{DoxyAuthor}{Author}
+Archibald Weng 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+April 2018 
+\end{DoxyDate}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ball_builder_a5dc064067607fa4ef22db5901cca9e62}\label{class_ball_builder_a5dc064067607fa4ef22db5901cca9e62}} 
+\index{Ball\+Builder@{Ball\+Builder}!build\+Ball@{build\+Ball}}
+\index{build\+Ball@{build\+Ball}!Ball\+Builder@{Ball\+Builder}}
+\subsubsection{\texorpdfstring{build\+Ball()}{buildBall()}}
+{\footnotesize\ttfamily virtual void Ball\+Builder\+::build\+Ball (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+build a ball 
+
+Reimplemented in \mbox{\hyperlink{classconcrete_ball_builder_a882e6217ebab232ee2a3d0af63c43b5a}{concrete\+Ball\+Builder}}.
+
+\mbox{\Hypertarget{class_ball_builder_a0cd696c49074e3923a76ec8aed10ad45}\label{class_ball_builder_a0cd696c49074e3923a76ec8aed10ad45}} 
+\index{Ball\+Builder@{Ball\+Builder}!build\+Color@{build\+Color}}
+\index{build\+Color@{build\+Color}!Ball\+Builder@{Ball\+Builder}}
+\subsubsection{\texorpdfstring{build\+Color()}{buildColor()}}
+{\footnotesize\ttfamily virtual void Ball\+Builder\+::build\+Color (\begin{DoxyParamCaption}\item[{Q\+String}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+set the ball\textquotesingle{}s color 
+
+Reimplemented in \mbox{\hyperlink{classconcrete_ball_builder_afec6299653c5c810708254d3e32b6368}{concrete\+Ball\+Builder}}.
+
+\mbox{\Hypertarget{class_ball_builder_a0ca1344197192ea0f5aa5b7104e5f876}\label{class_ball_builder_a0ca1344197192ea0f5aa5b7104e5f876}} 
+\index{Ball\+Builder@{Ball\+Builder}!build\+Coordinate@{build\+Coordinate}}
+\index{build\+Coordinate@{build\+Coordinate}!Ball\+Builder@{Ball\+Builder}}
+\subsubsection{\texorpdfstring{build\+Coordinate()}{buildCoordinate()}}
+{\footnotesize\ttfamily virtual void Ball\+Builder\+::build\+Coordinate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_coordinate}{Coordinate}}}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+set the ball\textquotesingle{}s coordinate 
+
+Reimplemented in \mbox{\hyperlink{classconcrete_ball_builder_ae4ddab3b62cc22f9f85d9bd3829830c4}{concrete\+Ball\+Builder}}.
+
+\mbox{\Hypertarget{class_ball_builder_a6514a4ef81d56ba21708783cce473e4e}\label{class_ball_builder_a6514a4ef81d56ba21708783cce473e4e}} 
+\index{Ball\+Builder@{Ball\+Builder}!build\+Mass@{build\+Mass}}
+\index{build\+Mass@{build\+Mass}!Ball\+Builder@{Ball\+Builder}}
+\subsubsection{\texorpdfstring{build\+Mass()}{buildMass()}}
+{\footnotesize\ttfamily virtual void Ball\+Builder\+::build\+Mass (\begin{DoxyParamCaption}\item[{double}]{mass }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+set the ball\textquotesingle{}s mass 
+
+Reimplemented in \mbox{\hyperlink{classconcrete_ball_builder_a74b84331ccf45c4880bf3a9bda6bfb22}{concrete\+Ball\+Builder}}.
+
+\mbox{\Hypertarget{class_ball_builder_af101d6eac3453fd0fda02b8900b49e8f}\label{class_ball_builder_af101d6eac3453fd0fda02b8900b49e8f}} 
+\index{Ball\+Builder@{Ball\+Builder}!build\+Radius@{build\+Radius}}
+\index{build\+Radius@{build\+Radius}!Ball\+Builder@{Ball\+Builder}}
+\subsubsection{\texorpdfstring{build\+Radius()}{buildRadius()}}
+{\footnotesize\ttfamily virtual void Ball\+Builder\+::build\+Radius (\begin{DoxyParamCaption}\item[{int}]{radius }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+set the ball\textquotesingle{}s radius 
+
+Reimplemented in \mbox{\hyperlink{classconcrete_ball_builder_aa85cf84c6c3cf21e9e4ad83c250d0e58}{concrete\+Ball\+Builder}}.
+
+\mbox{\Hypertarget{class_ball_builder_a9139eedc191ad41fa221f06902646d4b}\label{class_ball_builder_a9139eedc191ad41fa221f06902646d4b}} 
+\index{Ball\+Builder@{Ball\+Builder}!build\+X\+Velocity@{build\+X\+Velocity}}
+\index{build\+X\+Velocity@{build\+X\+Velocity}!Ball\+Builder@{Ball\+Builder}}
+\subsubsection{\texorpdfstring{build\+X\+Velocity()}{buildXVelocity()}}
+{\footnotesize\ttfamily virtual void Ball\+Builder\+::build\+X\+Velocity (\begin{DoxyParamCaption}\item[{double}]{xV }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+set the ball\textquotesingle{}s x velocity 
+
+Reimplemented in \mbox{\hyperlink{classconcrete_ball_builder_a45c8c4aaf54af6e5f619ccc3d0c62924}{concrete\+Ball\+Builder}}.
+
+\mbox{\Hypertarget{class_ball_builder_a1687bc4c363f259dd38b0d7d6ac92e57}\label{class_ball_builder_a1687bc4c363f259dd38b0d7d6ac92e57}} 
+\index{Ball\+Builder@{Ball\+Builder}!build\+Y\+Velocity@{build\+Y\+Velocity}}
+\index{build\+Y\+Velocity@{build\+Y\+Velocity}!Ball\+Builder@{Ball\+Builder}}
+\subsubsection{\texorpdfstring{build\+Y\+Velocity()}{buildYVelocity()}}
+{\footnotesize\ttfamily virtual void Ball\+Builder\+::build\+Y\+Velocity (\begin{DoxyParamCaption}\item[{double}]{yV }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+set the ball\textquotesingle{}s y velocity 
+
+Reimplemented in \mbox{\hyperlink{classconcrete_ball_builder_a6054b9012af3247b16f2e1c4040555cb}{concrete\+Ball\+Builder}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+ballbuilder.\+h\item 
+ballbuilder.\+cpp\end{DoxyCompactItemize}

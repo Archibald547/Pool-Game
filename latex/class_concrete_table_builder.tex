@@ -1,0 +1,123 @@
+\hypertarget{class_concrete_table_builder}{}\section{Concrete\+Table\+Builder Class Reference}
+\label{class_concrete_table_builder}\index{Concrete\+Table\+Builder@{Concrete\+Table\+Builder}}
+
+
+\mbox{\hyperlink{class_concrete_table_builder}{Concrete\+Table\+Builder}} class is the concrete builder class for object table.  
+
+
+
+
+{\ttfamily \#include $<$concretetablebuilder.\+h$>$}
+
+Inheritance diagram for Concrete\+Table\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_concrete_table_builder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_concrete_table_builder_aff8b7c167d68b9e71c18888136b53034}{Concrete\+Table\+Builder}} (\mbox{\hyperlink{class_stage1_factory}{Stage1\+Factory}} $\ast$facotry)
+\item 
+virtual void \mbox{\hyperlink{class_concrete_table_builder_af49b5e371e6f725303e4b2f011d20fad}{build\+Table}} ()
+\item 
+virtual void \mbox{\hyperlink{class_concrete_table_builder_a154545f9b286b6a9ccff09a28c7a644d}{build\+Width}} (int width)
+\item 
+virtual void \mbox{\hyperlink{class_concrete_table_builder_a3e72d6d46e47146e385fff3937718a13}{build\+Height}} (int height)
+\item 
+virtual void \mbox{\hyperlink{class_concrete_table_builder_a547c26af597d109dbaf9b4de32f041a9}{build\+Background\+Color}} (Q\+String color)
+\item 
+virtual void \mbox{\hyperlink{class_concrete_table_builder_aab2c2ff234def292f7ead072dd5fda60}{build\+Friction}} (double friction)
+\item 
+virtual \mbox{\hyperlink{class_table}{Table}} $\ast$ \mbox{\hyperlink{class_concrete_table_builder_a0c1d21df18d11686736b84929deb669e}{get\+Table}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_concrete_table_builder_ac04fa93314b700665c56fea05b9a0ff0}\label{class_concrete_table_builder_ac04fa93314b700665c56fea05b9a0ff0}} 
+\mbox{\hyperlink{class_game_factory}{Game\+Factory}} $\ast$ {\bfseries m\+\_\+factory}
+\item 
+\mbox{\Hypertarget{class_concrete_table_builder_a1600f15904dd5029470bd93f0ccd206f}\label{class_concrete_table_builder_a1600f15904dd5029470bd93f0ccd206f}} 
+\mbox{\hyperlink{class_table}{Table}} $\ast$ {\bfseries m\+\_\+table}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{class_concrete_table_builder}{Concrete\+Table\+Builder}} class is the concrete builder class for object table. 
+
+\begin{DoxyAuthor}{Author}
+Archibald Weng 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+April 2018 
+\end{DoxyDate}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_concrete_table_builder_aff8b7c167d68b9e71c18888136b53034}\label{class_concrete_table_builder_aff8b7c167d68b9e71c18888136b53034}} 
+\index{Concrete\+Table\+Builder@{Concrete\+Table\+Builder}!Concrete\+Table\+Builder@{Concrete\+Table\+Builder}}
+\index{Concrete\+Table\+Builder@{Concrete\+Table\+Builder}!Concrete\+Table\+Builder@{Concrete\+Table\+Builder}}
+\subsubsection{\texorpdfstring{Concrete\+Table\+Builder()}{ConcreteTableBuilder()}}
+{\footnotesize\ttfamily Concrete\+Table\+Builder\+::\+Concrete\+Table\+Builder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_stage1_factory}{Stage1\+Factory}} $\ast$}]{facotry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+set the factory 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_concrete_table_builder_a547c26af597d109dbaf9b4de32f041a9}\label{class_concrete_table_builder_a547c26af597d109dbaf9b4de32f041a9}} 
+\index{Concrete\+Table\+Builder@{Concrete\+Table\+Builder}!build\+Background\+Color@{build\+Background\+Color}}
+\index{build\+Background\+Color@{build\+Background\+Color}!Concrete\+Table\+Builder@{Concrete\+Table\+Builder}}
+\subsubsection{\texorpdfstring{build\+Background\+Color()}{buildBackgroundColor()}}
+{\footnotesize\ttfamily virtual void Concrete\+Table\+Builder\+::build\+Background\+Color (\begin{DoxyParamCaption}\item[{Q\+String}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+set the table\textquotesingle{}scolor 
+
+Reimplemented from \mbox{\hyperlink{class_table_builder_a43bfcc7fbc5c45c0e2fe579b7d7e5f9c}{Table\+Builder}}.
+
+\mbox{\Hypertarget{class_concrete_table_builder_aab2c2ff234def292f7ead072dd5fda60}\label{class_concrete_table_builder_aab2c2ff234def292f7ead072dd5fda60}} 
+\index{Concrete\+Table\+Builder@{Concrete\+Table\+Builder}!build\+Friction@{build\+Friction}}
+\index{build\+Friction@{build\+Friction}!Concrete\+Table\+Builder@{Concrete\+Table\+Builder}}
+\subsubsection{\texorpdfstring{build\+Friction()}{buildFriction()}}
+{\footnotesize\ttfamily virtual void Concrete\+Table\+Builder\+::build\+Friction (\begin{DoxyParamCaption}\item[{double}]{friction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+set the table\textquotesingle{}s friction 
+
+Reimplemented from \mbox{\hyperlink{class_table_builder_a02a8d4ae71a3ef43ffd283ac10aa2e19}{Table\+Builder}}.
+
+\mbox{\Hypertarget{class_concrete_table_builder_a3e72d6d46e47146e385fff3937718a13}\label{class_concrete_table_builder_a3e72d6d46e47146e385fff3937718a13}} 
+\index{Concrete\+Table\+Builder@{Concrete\+Table\+Builder}!build\+Height@{build\+Height}}
+\index{build\+Height@{build\+Height}!Concrete\+Table\+Builder@{Concrete\+Table\+Builder}}
+\subsubsection{\texorpdfstring{build\+Height()}{buildHeight()}}
+{\footnotesize\ttfamily virtual void Concrete\+Table\+Builder\+::build\+Height (\begin{DoxyParamCaption}\item[{int}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+set the table\textquotesingle{}s height 
+
+Reimplemented from \mbox{\hyperlink{class_table_builder_ad3e3bb11cd8f9eecd49ad6012e358d05}{Table\+Builder}}.
+
+\mbox{\Hypertarget{class_concrete_table_builder_af49b5e371e6f725303e4b2f011d20fad}\label{class_concrete_table_builder_af49b5e371e6f725303e4b2f011d20fad}} 
+\index{Concrete\+Table\+Builder@{Concrete\+Table\+Builder}!build\+Table@{build\+Table}}
+\index{build\+Table@{build\+Table}!Concrete\+Table\+Builder@{Concrete\+Table\+Builder}}
+\subsubsection{\texorpdfstring{build\+Table()}{buildTable()}}
+{\footnotesize\ttfamily virtual void Concrete\+Table\+Builder\+::build\+Table (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+build a table from the facotry 
+
+Reimplemented from \mbox{\hyperlink{class_table_builder_a4aba0952fb1912f9ff7ca4cfb3085dd9}{Table\+Builder}}.
+
+\mbox{\Hypertarget{class_concrete_table_builder_a154545f9b286b6a9ccff09a28c7a644d}\label{class_concrete_table_builder_a154545f9b286b6a9ccff09a28c7a644d}} 
+\index{Concrete\+Table\+Builder@{Concrete\+Table\+Builder}!build\+Width@{build\+Width}}
+\index{build\+Width@{build\+Width}!Concrete\+Table\+Builder@{Concrete\+Table\+Builder}}
+\subsubsection{\texorpdfstring{build\+Width()}{buildWidth()}}
+{\footnotesize\ttfamily virtual void Concrete\+Table\+Builder\+::build\+Width (\begin{DoxyParamCaption}\item[{int}]{width }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+set the table\textquotesingle{}s width \mbox{\Hypertarget{class_concrete_table_builder_a0c1d21df18d11686736b84929deb669e}\label{class_concrete_table_builder_a0c1d21df18d11686736b84929deb669e}} 
+\index{Concrete\+Table\+Builder@{Concrete\+Table\+Builder}!get\+Table@{get\+Table}}
+\index{get\+Table@{get\+Table}!Concrete\+Table\+Builder@{Concrete\+Table\+Builder}}
+\subsubsection{\texorpdfstring{get\+Table()}{getTable()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_table}{Table}}$\ast$ Concrete\+Table\+Builder\+::get\+Table (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+get this table\textquotesingle{}s pointer 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+concretetablebuilder.\+h\end{DoxyCompactItemize}

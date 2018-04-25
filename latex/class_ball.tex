@@ -1,0 +1,161 @@
+\hypertarget{class_ball}{}\section{Ball Class Reference}
+\label{class_ball}\index{Ball@{Ball}}
+
+
+\mbox{\hyperlink{class_ball}{Ball}} class used for store the info of ball json objects. It contains basic setters, getters and methods that detect and resolve wall-\/collison and balls-\/collisons.  
+
+
+
+
+{\ttfamily \#include $<$ball.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_aad0fc9de59bff22ea99b0f3e2c3684a3}\label{class_ball_aad0fc9de59bff22ea99b0f3e2c3684a3}} 
+{\bfseries Ball} (Q\+String colour=\char`\"{}yellow\char`\"{}, Coordinate coordinate=\mbox{\hyperlink{class_coordinate}{Coordinate}}(1, 1, 1, 1), unsigned int radius=10, double mass=1, double x\+Velocity=0, double y\+Velocity=0)
+\item 
+void \mbox{\hyperlink{class_ball_a05228e822d67b25baf715cf09c325494}{move}} ()
+\item 
+void \mbox{\hyperlink{class_ball_aaa87956d96d2537d7fe1fc9c651d9c0a}{render}} (Q\+Painter \&painter)
+\item 
+bool \mbox{\hyperlink{class_ball_a89220468866f8bf347277e62b400cbd6}{is\+Y\+Collision\+Up}} ()
+\item 
+bool \mbox{\hyperlink{class_ball_a49aaf03314ad71ad8b549605683da5cf}{is\+Y\+Collision\+Down}} ()
+\item 
+bool \mbox{\hyperlink{class_ball_ac78e9493b3dd882154f449fbf9d46673}{is\+X\+Collision\+Left}} ()
+\item 
+bool \mbox{\hyperlink{class_ball_a7ea99601caa442c45b150723fa9d5dfb}{is\+X\+Collision\+Right}} ()
+\item 
+void \mbox{\hyperlink{class_ball_a6a9181cac6b5363ecb9185e111ca4e3f}{resolve\+Wall\+Collision}} ()
+\item 
+bool \mbox{\hyperlink{class_ball_a34427cdba5ef3f0b6a7bd710234272c6}{is\+Ball\+Collision}} (\mbox{\hyperlink{class_ball}{Ball}} \&b)
+\item 
+void \mbox{\hyperlink{class_ball_a830543891837e6b37055b27262714e13}{resolve\+Collision}} (\mbox{\hyperlink{class_ball}{Ball}} \&b)
+\item 
+void \mbox{\hyperlink{class_ball_a4c0af1b64acf876fafb8a85fc470772f}{reverse\+Direction}} ()
+\item 
+void \mbox{\hyperlink{class_ball_a1557e7212e496a96aab9ca9a683dfca2}{slow\+Down}} (double friction)
+\item 
+\mbox{\Hypertarget{class_ball_a58bf60524be0060b255108eb996413e3}\label{class_ball_a58bf60524be0060b255108eb996413e3}} 
+Q\+String {\bfseries get\+Color} ()
+\item 
+\mbox{\Hypertarget{class_ball_a0b0099645dd017bc65634425b67ad79f}\label{class_ball_a0b0099645dd017bc65634425b67ad79f}} 
+\mbox{\hyperlink{class_coordinate}{Coordinate}} {\bfseries get\+Coordinate} ()
+\item 
+\mbox{\Hypertarget{class_ball_ad2dc00de05b971347604e5e08a952424}\label{class_ball_ad2dc00de05b971347604e5e08a952424}} 
+unsigned int {\bfseries get\+Radius} ()
+\item 
+\mbox{\Hypertarget{class_ball_ae02678b9e5ba6ed64906561c1e390c34}\label{class_ball_ae02678b9e5ba6ed64906561c1e390c34}} 
+double {\bfseries get\+Mass} ()
+\item 
+\mbox{\Hypertarget{class_ball_a4447db4f0cef8d6cdbee2e6be9dd6137}\label{class_ball_a4447db4f0cef8d6cdbee2e6be9dd6137}} 
+double {\bfseries get\+X\+Velocity} ()
+\item 
+\mbox{\Hypertarget{class_ball_abef8bebba062d9151c1af503a9ed2569}\label{class_ball_abef8bebba062d9151c1af503a9ed2569}} 
+double {\bfseries get\+Y\+Velocity} ()
+\item 
+\mbox{\Hypertarget{class_ball_aa914f0a460330e53a7974dc2be011c89}\label{class_ball_aa914f0a460330e53a7974dc2be011c89}} 
+void {\bfseries set\+Color} (Q\+String color)
+\item 
+\mbox{\Hypertarget{class_ball_a928aa54ea9b09e644bb23d0fa75a720d}\label{class_ball_a928aa54ea9b09e644bb23d0fa75a720d}} 
+void {\bfseries set\+X\+Velocity} (double xV)
+\item 
+\mbox{\Hypertarget{class_ball_a439b6a930c65a7ec38262930c391563c}\label{class_ball_a439b6a930c65a7ec38262930c391563c}} 
+void {\bfseries set\+Y\+Velocity} (double yV)
+\item 
+\mbox{\Hypertarget{class_ball_ad76ef4fa5aa966fcdebb447d17fdb445}\label{class_ball_ad76ef4fa5aa966fcdebb447d17fdb445}} 
+void {\bfseries set\+Mass} (double mass)
+\item 
+\mbox{\Hypertarget{class_ball_a0d0c12d5f7c970fa8d686bedfb34cae1}\label{class_ball_a0d0c12d5f7c970fa8d686bedfb34cae1}} 
+void {\bfseries set\+Coordinate} (\mbox{\hyperlink{class_coordinate}{Coordinate}} c)
+\item 
+\mbox{\Hypertarget{class_ball_a4f90616b98909608b0ab169abed4ca3c}\label{class_ball_a4f90616b98909608b0ab169abed4ca3c}} 
+void {\bfseries set\+Radius} (unsigned int radius)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{class_ball}{Ball}} class used for store the info of ball json objects. It contains basic setters, getters and methods that detect and resolve wall-\/collison and balls-\/collisons. 
+
+\begin{DoxyAuthor}{Author}
+Archibald Weng 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+April 2018 
+\end{DoxyDate}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ball_a34427cdba5ef3f0b6a7bd710234272c6}\label{class_ball_a34427cdba5ef3f0b6a7bd710234272c6}} 
+\index{Ball@{Ball}!is\+Ball\+Collision@{is\+Ball\+Collision}}
+\index{is\+Ball\+Collision@{is\+Ball\+Collision}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{is\+Ball\+Collision()}{isBallCollision()}}
+{\footnotesize\ttfamily bool Ball\+::is\+Ball\+Collision (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ball}{Ball}} \&}]{b }\end{DoxyParamCaption})}
+
+check if the ball is colliding with another ball b \mbox{\Hypertarget{class_ball_ac78e9493b3dd882154f449fbf9d46673}\label{class_ball_ac78e9493b3dd882154f449fbf9d46673}} 
+\index{Ball@{Ball}!is\+X\+Collision\+Left@{is\+X\+Collision\+Left}}
+\index{is\+X\+Collision\+Left@{is\+X\+Collision\+Left}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{is\+X\+Collision\+Left()}{isXCollisionLeft()}}
+{\footnotesize\ttfamily bool Ball\+::is\+X\+Collision\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+check if the ball is touching the west wall \mbox{\Hypertarget{class_ball_a7ea99601caa442c45b150723fa9d5dfb}\label{class_ball_a7ea99601caa442c45b150723fa9d5dfb}} 
+\index{Ball@{Ball}!is\+X\+Collision\+Right@{is\+X\+Collision\+Right}}
+\index{is\+X\+Collision\+Right@{is\+X\+Collision\+Right}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{is\+X\+Collision\+Right()}{isXCollisionRight()}}
+{\footnotesize\ttfamily bool Ball\+::is\+X\+Collision\+Right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+check if the ball is touching the east wall \mbox{\Hypertarget{class_ball_a49aaf03314ad71ad8b549605683da5cf}\label{class_ball_a49aaf03314ad71ad8b549605683da5cf}} 
+\index{Ball@{Ball}!is\+Y\+Collision\+Down@{is\+Y\+Collision\+Down}}
+\index{is\+Y\+Collision\+Down@{is\+Y\+Collision\+Down}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{is\+Y\+Collision\+Down()}{isYCollisionDown()}}
+{\footnotesize\ttfamily bool Ball\+::is\+Y\+Collision\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+check if the ball is touching the south wall \mbox{\Hypertarget{class_ball_a89220468866f8bf347277e62b400cbd6}\label{class_ball_a89220468866f8bf347277e62b400cbd6}} 
+\index{Ball@{Ball}!is\+Y\+Collision\+Up@{is\+Y\+Collision\+Up}}
+\index{is\+Y\+Collision\+Up@{is\+Y\+Collision\+Up}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{is\+Y\+Collision\+Up()}{isYCollisionUp()}}
+{\footnotesize\ttfamily bool Ball\+::is\+Y\+Collision\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+check if the ball is touching the north wall \mbox{\Hypertarget{class_ball_a05228e822d67b25baf715cf09c325494}\label{class_ball_a05228e822d67b25baf715cf09c325494}} 
+\index{Ball@{Ball}!move@{move}}
+\index{move@{move}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void Ball\+::move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+move the ball\textquotesingle{}s position base on its velocity \mbox{\Hypertarget{class_ball_aaa87956d96d2537d7fe1fc9c651d9c0a}\label{class_ball_aaa87956d96d2537d7fe1fc9c651d9c0a}} 
+\index{Ball@{Ball}!render@{render}}
+\index{render@{render}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Ball\+::render (\begin{DoxyParamCaption}\item[{Q\+Painter \&}]{painter }\end{DoxyParamCaption})}
+
+\&display the ball itself on the dialog \mbox{\Hypertarget{class_ball_a830543891837e6b37055b27262714e13}\label{class_ball_a830543891837e6b37055b27262714e13}} 
+\index{Ball@{Ball}!resolve\+Collision@{resolve\+Collision}}
+\index{resolve\+Collision@{resolve\+Collision}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{resolve\+Collision()}{resolveCollision()}}
+{\footnotesize\ttfamily void Ball\+::resolve\+Collision (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ball}{Ball}} \&}]{b }\end{DoxyParamCaption})}
+
+resolve the balls collision by changing both of the balls\textquotesingle{} directions and velocity based on physics \mbox{\Hypertarget{class_ball_a6a9181cac6b5363ecb9185e111ca4e3f}\label{class_ball_a6a9181cac6b5363ecb9185e111ca4e3f}} 
+\index{Ball@{Ball}!resolve\+Wall\+Collision@{resolve\+Wall\+Collision}}
+\index{resolve\+Wall\+Collision@{resolve\+Wall\+Collision}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{resolve\+Wall\+Collision()}{resolveWallCollision()}}
+{\footnotesize\ttfamily void Ball\+::resolve\+Wall\+Collision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+change the ball\textquotesingle{}s direction if it is touching any wall \mbox{\Hypertarget{class_ball_a4c0af1b64acf876fafb8a85fc470772f}\label{class_ball_a4c0af1b64acf876fafb8a85fc470772f}} 
+\index{Ball@{Ball}!reverse\+Direction@{reverse\+Direction}}
+\index{reverse\+Direction@{reverse\+Direction}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{reverse\+Direction()}{reverseDirection()}}
+{\footnotesize\ttfamily void Ball\+::reverse\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+simply reverse this ball\textquotesingle{}s direction \mbox{\Hypertarget{class_ball_a1557e7212e496a96aab9ca9a683dfca2}\label{class_ball_a1557e7212e496a96aab9ca9a683dfca2}} 
+\index{Ball@{Ball}!slow\+Down@{slow\+Down}}
+\index{slow\+Down@{slow\+Down}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{slow\+Down()}{slowDown()}}
+{\footnotesize\ttfamily void Ball\+::slow\+Down (\begin{DoxyParamCaption}\item[{double}]{friction }\end{DoxyParamCaption})}
+
+slows the ball down due to the friction of the table 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+ball.\+h\item 
+ball.\+cpp\end{DoxyCompactItemize}
